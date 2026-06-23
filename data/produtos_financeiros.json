@@ -28,7 +28,7 @@
     "categoria": "fundo",
     "risco": "medio",
     "rentabilidade": "CDI + 2%",
-    "aporte_minimo": 500.00,
+    "aporte_minimo": 50.00,
     "indicado_para": "Perfil moderado que busca diversificação"
   },
   {
@@ -36,7 +36,7 @@
     "categoria": "fundo",
     "risco": "alto",
     "rentabilidade": "Variável",
-    "aporte_minimo": 100.00,
+    "aporte_minimo": 25.00,
     "indicado_para": "Perfil arrojado com foco no longo prazo"
   }
 ]
