@@ -24,11 +24,11 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 
 Principais melhorias:
 
-Inclusão de renda extra além do salário fixo
-Estrutura de gastos por categoria (alimentação, moradia, transporte etc.)
-Definição de metas financeiras com prazos
-Criação de faixas financeiras (renda, risco e saúde financeira)
-Padronização de valores monetários para facilitar cálculos automáticos
+Inclusão de renda extra além do salário fixo.
+Estrutura de gastos por categoria (alimentação, moradia, transporte etc.).
+Definição de metas financeiras com prazos.
+Criação de faixas financeiras (renda, risco e saúde financeira).
+Padronização de valores monetários para facilitar cálculos automáticos.
 
 Essas adaptações permitem que o agente realize análises mais precisas e gere alertas financeiros em tempo real.]
 
