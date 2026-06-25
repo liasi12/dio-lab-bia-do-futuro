@@ -20,7 +20,17 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 
 > Você modificou ou expandiu os dados mockados? Descreva aqui.
 
-[Sua descrição aqui]
+[Durante o desenvolvimento, os dados foram expandidos e adaptados para permitir maior realismo e funcionalidade do agente.
+
+Principais melhorias:
+
+Inclusão de renda extra além do salário fixo
+Estrutura de gastos por categoria (alimentação, moradia, transporte etc.)
+Definição de metas financeiras com prazos
+Criação de faixas financeiras (renda, risco e saúde financeira)
+Padronização de valores monetários para facilitar cálculos automáticos
+
+Essas adaptações permitem que o agente realize análises mais precisas e gere alertas financeiros em tempo real.]
 
 ---
 
@@ -34,7 +44,22 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt? São consultados dinamicamente?
 
-[Sua descrição aqui]
+[Como os dados são carregados?
+
+Os dados são carregados no início da execução da aplicação através de leitura local dos arquivos:
+
+JSON → carregados via json.load()
+CSV → carregados via pandas.read_csv()
+
+Esses dados ficam disponíveis durante toda a sessão do usuário. 
+Uma versão resumida dos dados é enviada ao modelo LLM (quando usado), contendo:
+
+perfil do usuário
+resumo de gastos
+situação financeira atual
+metas principais
+
+Isso permite respostas mais naturais e personalizadas.]
 
 ---
 
@@ -52,4 +77,22 @@ Dados do Cliente:
 - 01/11: Supermercado - R$ 450
 - 03/11: Streaming - R$ 55
 ...
+```
+```
+Dados do Cliente:
+Nome: Joana Maria da Silva
+Idade: 45 anos
+Perfil: Moderado
+Renda mensal: R$ 1.880
+Renda extra: R$ 300
+Patrimônio total: R$ 10.000
+Reserva de emergência: R$ 300
+
+Últimas Transações:
+01/10: Salário — R$ 1.800
+02/10: Aluguel — R$ 300
+03/10: Supermercado — R$ 450
+05/10: Streaming — R$ 55,90
+07/10: Farmácia — R$ 89
+10/10: Restaurante — R$ 120
 ```
