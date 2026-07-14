@@ -39,15 +39,13 @@ Crie testes simples para validar seu agente:
 ### Teste 3: Pergunta fora do escopo
 - **Pergunta:** "Qual a previsão do tempo?"
 - **Resposta esperada:** Agente informa que só trata de finanças
-- **Resultado:** [ ] Correto  [ x] Incorreto
+- **Resultado:** [x ] Correto  [ ] Incorreto
 
 ### Teste 4: Informação inexistente
 - **Pergunta:** "Quanto rende o produto XYZ?"
 - **Resposta esperada:** Agente admite não ter essa informação
-- **Resultado:** [ ] Correto  [x ] Incorreto
-
+  _**Resultado:**[ x] correto [] incorreto
 ---
-
 ## Resultados
 
 Após os testes, registre suas conclusões:
