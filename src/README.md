@@ -4,16 +4,7 @@
 
 Bem-vindo ao repositório oficial da **Lua**, nossa assistente virtual de finanças pessoais integrada a um painel inteligente de controle de gastos. Este projeto foi desenvolvido para democratizar o planejamento financeiro, focando em quem o mercado tradicional costuma ignorar: trabalhadores de baixa renda, autônomos e iniciantes na jornada de poupar.
 
----
 
-## 📺 Veja a Lua em Ação!
-
-Abaixo você confere o funcionamento da nossa aplicação em tempo real, desde o monitoramento do painel até a interação direta com a nossa Inteligência Artificial:
-
-![Demonstração do Aplicativo](https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=800&q=80) 
-*(Dica: Se tiver o link do seu vídeo ou um GIF do app rodando, substitua esta imagem pelo link dele!)*
-
----
 
 ## 🎯 O Problema que Resolvemos
 
@@ -47,7 +38,6 @@ Este projeto foi construído utilizando um ecossistema moderno e focado em alta 
 
 * **[Python](https://www.python.org/)** (Linguagem base de backend e dados)
 * **[Streamlit](https://streamlit.io/)** (Framework para construção de interfaces web rápidas e interativas)
-* **Inteligência Artificial & LLMs** (Agente inteligente integrado via API segura)
 * **Pandas** (Tratamento estruturado das transações financeiras)
 
 ---
